@@ -1,0 +1,6 @@
+logs/
+.env
+*.test
+*.out
+Dockerfile
+docker-compose.yml

@@ -1,0 +1,12 @@
+services:
+  yfs-user-quota-update-cron:
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    image: rjyspl/yfs-user-quota-update-cron:latest
+    container_name: yfs-user-quota-update-cron
+
+    env_file:
+      - .env
+      
+    restart: always
